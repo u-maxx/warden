@@ -1,1 +1,1 @@
-FROM rabbitmq:3.7-management
+FROM rabbitmq:3.10.23-management
