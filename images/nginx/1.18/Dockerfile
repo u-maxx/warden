@@ -1,4 +1,4 @@
-FROM nginx:1.18-alpine
+FROM nginx:1.26.1-alpine
 RUN apk add --no-cache bash shadow
 
 ENV NGINX_UPSTREAM_HOST           php-fpm
